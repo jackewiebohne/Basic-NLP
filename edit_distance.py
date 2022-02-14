@@ -1,5 +1,7 @@
 # python3
 
+# edit distance using dynamic programming (was created in context of Algorithms course offered by HSE/UC Davis on Coursera
+
 import  numpy as np
 
 def edit_distance(first_string, second_string):
