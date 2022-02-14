@@ -62,6 +62,11 @@ class Collocation_Metrics():
             return 0
     
     def corrected_t_score(self, window_size):
+        '''
+        params::
+            window_size = the window of collocations considered 
+                (collocation = collocation of target token and collocate token)
+        ''' 
         if self.WC:
             return (self.WC - self._corrected_expected(window_size))/np.sqrt(self.WC)
         else:
