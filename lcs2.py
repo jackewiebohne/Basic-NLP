@@ -1,10 +1,10 @@
 # python3
 
+# dynamic programming to find longest common (in order) subsequence of two strings. created as part of the Algorithms course offered by HSE/UC Davis on Coursera
+
 import numpy as np
 
 def lcs2(first_sequence, second_sequence):
-    assert len(str(first_sequence)) <= 100
-    assert len(str(second_sequence)) <= 100
     first_sequence = str(first_sequence)
     second_sequence = str(second_sequence)
     mtx = np.zeros((len(first_sequence)+1, len(second_sequence)+1))
