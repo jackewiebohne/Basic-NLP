@@ -1,6 +1,6 @@
 # python3
 
-# dynamic programming to find longest common (in order) subsequence of two strings. created as part of the Algorithms course offered by HSE/UC Davis on Coursera
+# dynamic programming to find longest common subsequence of two strings. created as part of the Algorithms course offered by HSE/UC Davis on Coursera
 # time complexity is O(n^2)
 
 import numpy as np
