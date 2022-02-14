@@ -3,7 +3,10 @@
 Here are some commonly used basic NLP and computational linguistics algorithms
 Most of the file names are self-explanatory.
 
-Perhaps a note on the collocation metrics:
+## keygram vec
+keygram vectoriser to create n-grams (with n = window-size) for a specific target word
+
+## collocation metrics:
 All of these metrics are based on: Brezina, Statistics in Corpus Linguistics, 2018, Cambridge UP
 Not all of the metrics listed in the book are implemented (they might be added in the future).
 
