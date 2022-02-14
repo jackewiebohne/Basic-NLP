@@ -25,17 +25,13 @@ def lcs3(first_sequence, second_sequence, third_sequence):
     return int(mtx[-1,-1,-1])
 
 # import random
-# diff = []
 # for i in range(200):
 #     r1 = random.randint(0,5000)
 #     r2 = random.randint(0,5000)
 #     r3 = random.randint(0,5000)
 #     res1 = lcs3(r1, r2, r3)
-#     res2 = _lcs3(r1, r2, r3)
-#     if res1 != res2:
-#         diff.append((res1, res2, r1, r2, r3))
-# print(len(diff))
-# print(diff)
+#     print(res1, r1, r2, r3)
+
 
 if __name__ == '__main__':
     n = int(input())
