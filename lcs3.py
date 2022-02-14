@@ -1,12 +1,12 @@
 # python3
 
+
+# dynamic programming to find longest common (in order) subsequence of three strings. created as part of the Algorithms course offered by HSE/UC Davis on Coursera
+# note that time complexity is O(n^3); so not feasible for very long strings
+
 import numpy as np
 
 def lcs3(first_sequence, second_sequence, third_sequence):
-    # assert len(first_sequence) <= 100
-    # assert len(second_sequence) <= 100
-    # assert len(third_sequence) <= 100
-
     first_sequence = str(first_sequence)
     second_sequence = str(second_sequence)
     third_sequence = str(third_sequence)
